@@ -1,1 +1,344 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Lab Szczecin - Profesjonalne Zabiegi Kosmetyczne</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Favicon placeholder -->
+    <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
 
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-pink-600">Beauty Lab</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-pink-600 transition duration-300">Strona Główna</a>
+                <a href="#about" class="text-gray-600 hover:text-pink-600 transition duration-300">O Nas</a>
+                <a href="#services" class="text-gray-600 hover:text-pink-600 transition duration-300">Oferta</a>
+                <a href="#price-list" class="text-gray-600 hover:text-pink-600 transition duration-300">Cennik</a>
+                <a href="#gallery" class="text-gray-600 hover:text-pink-600 transition duration-300">Galeria</a>
+                <a href="#promotions" class="text-gray-600 hover:text-pink-600 transition duration-300">Promocje</a>
+                <a href="#blog" class="text-gray-600 hover:text-pink-600 transition duration-300">Blog</a>
+                <a href="#contact" class="text-gray-600 hover:text-pink-600 transition duration-300">Kontakt</a>
+                <a href="#booking" class="bg-pink-600 text-white px-4 py-2 rounded-full hover:bg-pink-700 transition duration-300">Rezerwacja</a>
+            </nav>
+            <button class="md:hidden text-gray-600 hover:text-pink-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20 text-center relative overflow-hidden bg-gradient-to-r from-pink-50 to-purple-50">
+        <img src="https://via.placeholder.com/1920x800/fbe9e9/fff?text=Tło+Hero+Sekcji+-+Salon+Kosmetyczny" alt="Tło Hero Sekcji - Salon Kosmetyczny" class="absolute inset-0 w-full h-full object-cover opacity-75">
+        <div class="container mx-auto px-6 relative z-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+                Twoje Piękno, Nasza Pasja.<br>Beauty Lab Szczecin.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+                Odkryj profesjonalne zabiegi pielęgnacyjne twarzy i ciała, stylizację paznokci, depilację, masaże oraz skuteczne zabiegi anti-aging w sercu Szczecina.
+            </p>
+            <a href="#booking" class="inline-block bg-pink-600 text-white text-lg font-semibold px-8 py-3 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 shadow-lg">
+                Umów Wizytę Online
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="md:w-1/2">
+                <img src="https://via.placeholder.com/600x400/f0f0f0/ccc?text=O+Nas+-+Wnętrze+Salonu" alt="Wnętrze Beauty Lab" class="rounded-lg shadow-xl w-full h-auto object-cover">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">O Beauty Lab Szczecin</h2>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    Jesteśmy miejscem, gdzie nauka spotyka się z pięknem. W Beauty Lab stawiamy na innowacyjne rozwiązania i indywidualne podejście do każdego klienta. Nasza misja to pomaganie Ci odkrywać i podkreślać Twoje naturalne piękno, zapewniając przy tym pełen relaks i odprężenie.
+                </p>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    Zespół Beauty Lab to wykwalifikowani specjaliści z wieloletnim doświadczeniem w branży kosmetycznej i estetycznej. Regularnie podnosimy swoje kwalifikacje, aby oferować Ci najnowsze i najskuteczniejsze metody pielęgnacji.
+                </p>
+                <a href="#" class="text-pink-600 font-semibold hover:underline">Poznaj Nasz Zespół &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Nasza Kompleksowa Oferta Zabiegów</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-lg shadow-md p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.002 2.002M17 6h4m-2 2h2m-1 12v-4m2 2h-4M5 19h.01M17 19h.01M12 4v.01M12 10v.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Pielęgnacja Twarzy</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Od głębokiego oczyszczania, przez nawilżanie, po zabiegi anti-aging – dopasowujemy terapie do potrzeb Twojej skóry.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-pink-600 font-semibold hover:underline">Dowiedz się więcej</a>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-lg shadow-md p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.592 1L19.728 5.728A1 1 0 0121 6v14a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1h6.272a1 1 0 01.592.592L12 8z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Zabiegi na Ciało</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Redukcja cellulitu, ujędrnianie, modelowanie sylwetki – kompleksowe wsparcie dla Twojego ciała.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-pink-600 font-semibold hover:underline">Dowiedz się więcej</a>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-lg shadow-md p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Stylizacja Paznokci</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Manicure, pedicure, hybrydy, żele – zadbane dłonie i stopy na każdą okazję.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-pink-600 font-semibold hover:underline">Dowiedz się więcej</a>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="bg-white rounded-lg shadow-md p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Depilacja</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Skuteczne i delikatne metody usuwania owłosienia, dla gładkiej i promiennej skóry.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-pink-600 font-semibold hover:underline">Dowiedz się więcej</a>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="bg-white rounded-lg shadow-md p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Masaże</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Relaksacyjne, lecznicze, modelujące – odprężenie dla ciała i ukojenie dla zmysłów.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-pink-600 font-semibold hover:underline">Dowiedz się więcej</a>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="bg-white rounded-lg shadow-md p-8 transform hover:scale-105 transition duration-300">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.007 12.007 0 002.944 12c.005 3.668 1.488 7.017 3.682 9.65L12 22.999l5.374-2.352c2.193-2.633 3.676-5.982 3.68-9.65a12.007 12.007 0 00-3.322-8.618z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Zabiegi Anti-Aging</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Zaawansowane terapie spowalniające procesy starzenia, dla młodszej i promiennej cery.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-pink-600 font-semibold hover:underline">Dowiedz się więcej</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Dlaczego Kobiety Wybierają Beauty Lab?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.007 12.007 0 002.944 12c.005 3.668 1.488 7.017 3.682 9.65L12 22.999l5.374-2.352c2.193-2.633 3.676-5.982 3.68-9.65a12.007 12.007 0 00-3.322-8.618z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Certyfikowane Kosmetyki</h3>
+                    <p class="text-gray-600">Używamy tylko sprawdzonych produktów najwyższej jakości, bezpiecznych dla Twojej skóry.</p>
+                </div>
+                <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-1-3m-6.938-2.562L2.5 7.5a1.21 1.21 0 00-.73 1.63L3.13 13.5m10.32-8.13a1.21 1.21 0 001.63-.73L21.5 6.5a1.21 1.21 0 00-.73-1.63L16.87 3.5m-1.5 16.5a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Nowoczesne Technologie</h3>
+                    <p class="text-gray-600">Inwestujemy w zaawansowany sprzęt, by zapewnić skuteczność i bezpieczeństwo zabiegów.</p>
+                </div>
+                <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                    <div class="text-pink-600 mb-4">
+                        <svg class="h-12 w-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H2C3.243 16.419 6.679 15 12 15c1.141 0 2.228.169 3.266.447M12 14a3 3 0 100-6 3 3 0 000 6zm-5-3h10a1 1 0 011 1v4a1 1 0 01-1 1H7a1 1 0 01-1-1v-4a1 1 0 011-1z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Doświadczony Zespół</h3>
+                    <p class="text-gray-600">Nasi specjaliści to pasjonaci z wieloletnim doświadczeniem i indywidualnym podejściem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 bg-pink-600 text-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Gotowa na chwilę dla siebie?</h2>
+            <p class="text-xl mb-8">
+                Umów się na wizytę i pozwól nam zadbać o Twoje piękno i samopoczucie.
+            </p>
+            <a href="#booking" class="inline-block bg-white text-pink-600 text-xl font-semibold px-10 py-4 rounded-full hover:bg-gray-100 transform hover:scale-105 transition duration-300 shadow-lg">
+                Zarezerwuj Termin
+            </a>
+        </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section id="gallery" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Zobacz Nasze Metamorfozy i Wnętrza</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="relative overflow-hidden rounded-lg shadow-lg group">
+                    <img src="https://via.placeholder.com/400x300/e9e9e9/777?text=Galeria+1" alt="Galeria Beauty Lab 1" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-lg font-semibold">Przed i Po Zabiegu Twarzy</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-lg group">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/666?text=Galeria+2" alt="Galeria Beauty Lab 2" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-lg font-semibold">Relaks w Gabinecie Masazu</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-lg group">
+                    <img src="https://via.placeholder.com/400x300/d0d0d0/555?text=Galeria+3" alt="Galeria Beauty Lab 3" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-lg font-semibold">Perfekcyjny Manicure</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#gallery" class="inline-block mt-10 bg-pink-600 text-white text-lg font-semibold px-8 py-3 rounded-full hover:bg-pink-700 transition duration-300 shadow-lg">
+                Zobacz Całą Galerię
+            </a>
+        </div>
+    </section>
+
+    <!-- Blog/News Preview Section -->
+    <section id="blog" class="py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Porady i Aktualności ze Świata Beauty</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <article class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/fff0f0/ccc?text=Blog+1" alt="Zdjecie do posta blogowego 1" class="w-full h-48 object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">5 Sekretów Promiennej Cery Latem</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Odkryj, jak dbać o skórę w słoneczne dni, aby zachowała blask i nawilżenie.</p>
+                        <a href="#" class="text-pink-600 font-semibold hover:underline">Czytaj więcej &rarr;</a>
+                    </div>
+                </article>
+                <!-- Blog Post 2 -->
+                <article class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/f0f0ff/ccc?text=Blog+2" alt="Zdjecie do posta blogowego 2" class="w-full h-48 object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Masaż Leczniczy vs. Relaksacyjny: Różnice</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Poznaj kluczowe różnice i wybierz masaż idealny dla Twoich potrzeb.</p>
+                        <a href="#" class="text-pink-600 font-semibold hover:underline">Czytaj więcej &rarr;</a>
+                    </div>
+                </article>
+                <!-- Blog Post 3 -->
+                <article class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/f0fff0/ccc?text=Blog+3" alt="Zdjecie do posta blogowego 3" class="w-full h-48 object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Trendy w Manicure na 2024 Rok</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Zainspiruj się najnowszymi trendami w stylizacji paznokci i wybierz coś dla siebie.</p>
+                        <a href="#" class="text-pink-600 font-semibold hover:underline">Czytaj więcej &rarr;</a>
+                    </div>
+                </article>
+            </div>
+            <a href="#blog" class="inline-block mt-10 bg-pink-600 text-white text-lg font-semibold px-8 py-3 rounded-full hover:bg-pink-700 transition duration-300 shadow-lg">
+                Wszystkie Artykuły
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Skontaktuj Się Z Nami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-left">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Beauty Lab Szczecin</h3>
+                    <p class="text-gray-700 mb-2 flex items-center">
+                        <svg class="h-6 w-6 text-pink-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.602 5.957L16.29 4.645A2 2 0 0013.414 4H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V9.172a2 2 0 00-.586-1.414L17.602 5.957z"></path></svg>
+                        ul. Piękna 123, 70-001 Szczecin
+                    </p>
+                    <p class="text-gray-700 mb-2 flex items-center">
+                        <svg class="h-6 w-6 text-pink-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <a href="tel:+48123456789" class="hover:text-pink-600">+48 123 456 789</a>
+                    </p>
+                    <p class="text-gray-700 mb-2 flex items-center">
+                        <svg class="h-6 w-6 text-pink-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-17 4v7a2 2 0 002 2h12a2 2 0 002-2v-7"></path></svg>
+                        <a href="mailto:info@beautylab.pl" class="hover:text-pink-600">info@beautylab.pl</a>
+                    </p>
+                    <p class="text-gray-700 mt-4 font-semibold">Godziny Otwarcia:</p>
+                    <ul class="text-gray-600">
+                        <li>Poniedziałek - Piątek: 9:00 - 19:00</li>
+                        <li>Sobota: 10:00 - 16:00</li>
+                        <li>Niedziela: Zamknięte</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Wyślij Nam Wiadomość</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Imię i Nazwisko:</label>
+                            <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-pink-500" placeholder="Twoje imię">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Adres Email:</label>
+                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-pink-500" placeholder="twoj@email.com">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Wiadomość:</label>
+                            <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-pink-500" placeholder="Napisz do nas..."></textarea>
+                        </div>
+                        <button type="submit" class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-300">
+                            Wyślij
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-10 rounded-lg overflow-hidden shadow-lg">
+                <!-- Google Maps Embed Placeholder -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.034567890123!2d14.545123!3d53.428765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700040c5f24204b%3A0x6b4a3c2e1f4d0a1!2sSzczecin%2C%20Polska!5e0!3m2!1spl!2spl!4v1678901234567!5m2!1spl!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section - just a link to the main booking page -->
+    <section id="booking" class="py-16 bg-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Wygodna Rezerwacja Online</h2>
+            <p class="text-lg text-gray-700 mb-8">
+                Skorzystaj z naszego intuicyjnego systemu rezerwacji online i umów wizytę w dogodnym dla siebie terminie.
+            </p>
+            <a href="#" class="inline-block bg-pink-600 text-white text-lg font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 shadow-lg">
+                Przejdź do Systemu Rezerwacji
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-6 text-center md:flex md:justify-between md:items-center">
+            <p class="mb-4 md:mb-0">&copy; 2024 Beauty Lab Szczecin. Wszelkie prawa zastrzeżone.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22C17.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.715.01 3.655.047 1.005.038 1.797.23 2.456.485.659.254 1.21.593 1.663 1.046.453.453.792 1.004 1.046 1.664.255.659.447 1.45.485 2.456.037.94.047 1.225.047 3.655s-.01 2.715-.047 3.655c-.038 1.005-.23 1.797-.485 2.456-.254.659-.593 1.21-1.046 1.663-.453.453-1.004.792-1.664 1.046-.659.255-1.45.447-2.456.485-.94.037-1.225.047-3.655.047s-2.715-.01-3.655-.047c-1.005-.038-1.797-.23-2.456-.485-.659-.254-1.21-.593-1.663-1.046-.453-.453-.792-1.004-1.046-1.664-.255-.659-.447-1.45-.485-2.456-.037-.94-.047-1.225-.047-3.655s.01-2.715.047-3.655c.038-1.005.23-1.797.485-2.456.254-.659.593-1.21 1.046-1.663.453-.453 1.004-.792 1.664-1.046.659-.255 1.45-.447 2.456-.485C9.585 2.01 9.87 2 12.315 2zm0 2.158c-2.35 0-2.618.009-3.468.043-.807.031-1.353.187-1.782.357-.42.164-.72.378-.992.65-.272.272-.486.572-.65.992-.17.429-.327.975-.357 1.782-.034.85-.043 1.117-.043 3.468s.009 2.618.043 3.468c.031.807.187 1.353.357 1.782.164.42.378.72.65.992.272.272.572.486.992.65.429.17.975.327 1.782.357.85.034 1.117.043 3.468.043s2.618-.009 3.468-.043c.807-.031 1.353-.187 1.782-.357.42-.164.72-.378.992-.65.272-.272.486-.572.65-.992-.17-.429-.327-.975-.357-1.782-.034-.85-.043-1.117-.043-3.468s-.009-2.618-.043-3.468c-.031-.807-.187-1.353-.357-1.782-.164-.42-.378-.72-.65-.992-.272-.272-.486-.572-.992-.65-.429-.17-.975-.327-1.782-.357-.85-.034-1.117-.043-3.468-.043zm0 3.657a5.158 5.158 0 100 10.316 5.158 5.158 0 000-10.316zm0 2.158a3 3 0 110 6 3 3 0 010-6zm6.577-.942a1.288 1.288 0 10-.001 2.576 1.288 1.288 0 00.001-2.576z" clip-rule="evenodd" /></svg>
+                </a>
+                <!-- Add other social media icons as needed -->
+            </div>
+            <div class="mt-4 md:mt-0">
+                <a href="#" class="text-gray-300 hover:text-white mr-4">Polityka Prywatności</a>
+                <a href="#" class="text-gray-300 hover:text-white">Regulamin</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
